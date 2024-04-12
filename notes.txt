@@ -107,3 +107,19 @@ else
 
 98,76,54,32,34,56,78,90,108,85,56,23,11,5,100,2
 
+------------------------------------------------------------
+
+
+
+recursion -> function calling it self 
+
+
+void add(){
+   //
+   //
+   //
+   add(); // recursion 
+   ///
+}
+
+base case -> condition where recursion will break 
