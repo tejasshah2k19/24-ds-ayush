@@ -32,6 +32,7 @@ void addStudent()
 
         printf("\nEnter name and marks of three subjects");
         scanf("%s%d%d%d", &s->name, &s->m, &s->s, &s->e);
+        
         s->p = (s->m + s->s + s->e) / 3;
         s->next=NULL;
         last->next = s; 
@@ -42,7 +43,12 @@ void addStudent()
 
 void display()
 {
-    //  printf("\nName = %s\nMaths = %d\nSci = %d\nEng = %d\nPerc = %f",s->name,s->m,s->s,s->e,s->p);
+    struct student *s = head; 
+
+    while(s != NULL){  
+        printf("\nName = %s\nMaths = %d\nSci = %d\nEng = %d\nPerc = %f",s->name,s->m,s->s,s->e,s->p);
+        s = s->next ;
+    }
 }
 int main()
 {
