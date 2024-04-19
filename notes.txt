@@ -123,3 +123,25 @@ void add(){
 }
 
 base case -> condition where recursion will break 
+
+
+---------------------------------------------------------------------
+
+
+malloc() -> n bytes 
+calloc() -> n number for bytes n time 
+
+free() -> release 
+
+int *p;
+float *f; 
+
+p = malloc(4);
+f = malloc(sizeof(float));
+
+
+
+p = (int*)malloc(4);
+f = (float*)malloc(sizeof(float));
+
+---------------------------------------------------------------------
