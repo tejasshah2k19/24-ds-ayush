@@ -144,4 +144,35 @@ f = malloc(sizeof(float));
 p = (int*)malloc(4);
 f = (float*)malloc(sizeof(float));
 
----------------------------------------------------------------------
+--------------------------------------------------------------------- 
+
+10 20 30 40 50 
+
+right side imbalance 
+
+AVL tree -> 
+      is a BST + balance ? 
+
+1) child [ 0 , 1 , 2]
+2) small -> left , big -> right 
+3) tree imbalance -> balance -> {rotate} -> {balance factor}[-1 0 1 valid]
+
+
+
+
+how to calculate balance factor? 
+
+how to calculate height? 
+
+
+balance factor(node) = node->left Height - node->right height 
+
+
+BF|N| = LH - RH 
+
+--------------------------------------------------------------------------
+
+
+
+
+
